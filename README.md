@@ -23,7 +23,7 @@ gcloud run deploy nextwords-app --image gcr.io/<project-id>/nextwords-app --plat
 > replace the <project-id> with your project id. Changes the memory to 1GB because the default memory (512 MiB is not enough)
 
 ## Google Cloud Infrastructure
-[Infrastucture Image](https://github.com/C241-PS127/Cloud-Computing-API/blob/main/Infrastucture/Lokal.ind%20Diagram.png)
+![Infrastucture Image](https://github.com/C241-PS127/Cloud-Computing-API/blob/main/Infrastucture/Lokal.ind%20Diagram.png)
 
 ## API Documentation
 
