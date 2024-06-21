@@ -40,8 +40,8 @@ gcloud run deploy nextwords-app --image gcr.io/<project-id>/nextwords-app --plat
   "next_words": 2
 }
 ```
-*seed_text: The starting text from which the prediction will start.
-*next_words: (Optional) Number of words to predict following the seed_text. Defaults to 1 if not specified.
+* seed_text: The starting text from which the prediction will start.
+* next_words: (Optional) Number of words to predict following the seed_text. Defaults to 1 if not specified.
 
 #### Response Body
 ```json
