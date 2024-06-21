@@ -26,8 +26,7 @@ This Flask-based API predicts the next word(s) in a given text sequence using a 
 ## API Documentation
 - Predict Next Word
   - method: POST 
-  Send a POST request to <Cloud_Run_Endpoint>/predict with JSON data containing the seed_text and optionally next_words:
-  > replace <Your_Cloud_Run_Endpoint> with endpoint that you got from deploy the container to the cloud run
+  > Send a POST request to <Cloud_Run_Endpoint>/predict with JSON data containing the seed_text and optionally next_words.  replace <Your_Cloud_Run_Endpoint> with endpoint that you got from deploy the container to the cloud run
   -body request:
     {
     "seed_text": "kaos",
