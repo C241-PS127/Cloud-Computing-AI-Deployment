@@ -47,3 +47,9 @@ This Flask-based API predicts the next word(s) in a given text sequence using a 
     "predicted_text": "kaos eiger shirt"
 }
 ```
+Model Details
+* The model (model_predict_next_words.h5) used in this API is pre-trained for predicting the next words in a sequence.
+* It utilizes a tokenizer trained on data from API_DS.csv to preprocess text inputs and outputs.
+> Notes
+* Adjust max_sequence_len in app.py according to your model's maximum sequence length.
+* Ensure that model_predict_next_words.h5 and API_DS.csv are accessible to the application when deployed.
