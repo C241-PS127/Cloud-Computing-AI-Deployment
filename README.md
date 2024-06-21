@@ -16,12 +16,14 @@ This Flask-based API predicts the next word(s) in a given text sequence using a 
 3. Build Container Registry with command `gcloud builds submit --tag gcr.io/<project-id>/nextwords-app`
 > replace the <project-id> with your project id
 
-4. Deploy the container into the Cloud run with `gcloud run deploy nextwords-app --image gcr.io/<project-id>/nextwords-app --platform managed --memory 1Gi`
+4. Deploy the container into the Cloud run with
+```
+gcloud run deploy nextwords-app --image gcr.io/<project-id>/nextwords-app --platform managed --memory 1Gi
+```
 > replace the <project-id> with your project id. Changes the memory to 1GB because the default memory (512 MiB is not enough)
 
 ## Google Cloud Infrastructure
-[![Infrastucture Image](Infrastucture/Lokal.ind%20Diagram.png)
-](https://github.com/C241-PS127/Cloud-Computing-API/blob/main/Infrastucture/Lokal.ind%20Diagram.png)
+[Infrastucture Image](https://github.com/C241-PS127/Cloud-Computing-API/blob/main/Infrastucture/Lokal.ind%20Diagram.png)
 
 ## API Documentation
 
